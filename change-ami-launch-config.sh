@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Define parameters
-ASG_NAME="myappapp"
-NEW_LC="myappapp-$(date +%Y-%m-%d_%H-%M)"
+ASG_NAME="myapp"
+NEW_LC="myapp-$(date +%Y-%m-%d_%H-%M)"
 TIME=$(date +%Y-%m-%d_%H-%M)
 
 echo "Selected Auto Scalling Group is ${ASG_NAME}"
